@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerState
+{
+    Walk,
+    Attack,
+    Interact
+}
+
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private VisionMultipleRays fieldOfView;
@@ -10,10 +17,12 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 change;
     private Animator animator;
     private int direction = 4;
+    public PlayerState currentState;
 
     // Start is called before the first frame update
     void Start()
     {
+        currentState = PlayerState.Walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
     }
@@ -25,10 +34,29 @@ public class PlayerMovement : MonoBehaviour
         // se preferir com aceleração basta trocar o GetAxisRaw por GetAxis
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
+
         direction = SetDirection();
         fieldOfView.SetAimDirection(SetVectorDirection());
         fieldOfView.SetOrigin(transform.position);
-        UpdateAnimationAndMove();
+
+        if (Input.GetButtonDown("Attack") && currentState != PlayerState.Attack)
+        {
+            StartCoroutine(AttackCo());
+        }
+        else if (currentState == PlayerState.Walk)
+        {
+            UpdateAnimationAndMove();
+        }
+    }
+
+    private IEnumerator AttackCo()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.Attack;
+        yield return null;
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        currentState = PlayerState.Walk;
     }
 
     void UpdateAnimationAndMove()

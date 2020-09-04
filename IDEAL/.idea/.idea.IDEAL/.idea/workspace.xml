@@ -20,8 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588ab74c-7bed-43ad-aa82-8abad9f4e131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Enemy.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Enemy.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/LogWakeUp.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/LogWakeUp.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logSleeping.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logSleeping.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkDown.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkDown.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkUp.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/logWalkUp.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackDown.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackDown.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackUp.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/attackUp.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/characterAtk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/characterAtk.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/log.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/log.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SimpleTarget.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SimpleTarget.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +65,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VisionFieldOfView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VisionMultipleRays.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1h16Fj7BftMshvAT3ySkjujcaqm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34996104" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30007794" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,10 +104,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12113">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="12113" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -86,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599166156171</updated>
-      <workItem from="1599166167524" duration="3250000" />
+      <workItem from="1599166167524" duration="6960000" />
     </task>
     <servers />
   </component>
@@ -107,6 +143,77 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2302" y="210" width="585" height="355" key="#Notifications" timestamp="1599179103159">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state x="2302" y="210" width="585" height="355" key="#Notifications/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599179103159" />
+    <state width="1314" height="253" key="GridCell.Tab.0.bottom" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.0.center" timestamp="1599185424062">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424062" />
+    <state width="1314" height="253" key="GridCell.Tab.0.left" timestamp="1599185424062">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424062" />
+    <state width="1314" height="253" key="GridCell.Tab.0.right" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.1.bottom" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.1.center" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.1.left" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.1.right" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.2.bottom" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.2.bottom/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.2.center" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.2.center/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.2.left" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.2.left/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.2.right" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.2.right/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.3.bottom" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.3.bottom/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.3.center" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.3.center/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.3.left" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.3.left/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
+    <state width="1314" height="253" key="GridCell.Tab.3.right" timestamp="1599185424063">
+      <screen x="1920" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="253" key="GridCell.Tab.3.right/0.27.1920.1053/1920.0.1360.768@1920.0.1360.768" timestamp="1599185424063" />
   </component>
 </project>
