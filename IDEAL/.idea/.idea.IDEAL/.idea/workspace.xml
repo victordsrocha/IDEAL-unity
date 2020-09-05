@@ -20,21 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588ab74c-7bed-43ad-aa82-8abad9f4e131" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pot.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PotGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Objects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Fountain.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Fountain/Fountain.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Fountain/Fountain.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Fountain/fountainIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Objects/Fountain/fountainIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Overworld (copy).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Overworld (copy).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/fountain1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/fountain1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/fountain2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/fountain2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/fountain3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/fountain3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IDEAL/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SimpleTarget.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SimpleTarget.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PotScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PotScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pot.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VisionMultipleRays.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VisionMultipleRays.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/74965477-81D8-4142-A2A6-4870DA991984/02/585dbe19/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PotGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -98,10 +100,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="68872">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="68872" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -118,6 +120,7 @@
       <updated>1599166156171</updated>
       <workItem from="1599166167524" duration="6960000" />
       <workItem from="1599234150466" duration="14899000" />
+      <workItem from="1599318426238" duration="602000" />
     </task>
     <servers />
   </component>
