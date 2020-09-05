@@ -13,7 +13,7 @@ public class VisionMultipleRays : MonoBehaviour
 
     private void Start()
     {
-        fov = 90f;
+        fov = 180f;
         origin = Vector3.zero;
     }
 

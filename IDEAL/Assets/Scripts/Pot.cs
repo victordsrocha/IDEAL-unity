@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
-public class PotScript : MonoBehaviour
+public class Pot : MonoBehaviour
 {
     private Animator anim;
+    //private PotGenerator potGenerator;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,7 @@ public class PotScript : MonoBehaviour
     IEnumerator breakCo()
     {
         yield return new WaitForSeconds(.3f);
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

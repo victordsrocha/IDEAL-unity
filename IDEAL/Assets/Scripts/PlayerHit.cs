@@ -21,7 +21,7 @@ public class PlayerHit : MonoBehaviour
     {
         if (other.CompareTag("breakable"))
         {
-            other.GetComponent<PotScript>().Smash();
+            other.GetComponent<Pot>().Smash();
         }
     }
 }
