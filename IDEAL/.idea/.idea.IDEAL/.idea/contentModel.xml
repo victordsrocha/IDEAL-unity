@@ -8,12 +8,19 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AgentAI.cs" t="Include" />
+          <e p="Anticipation.cs" t="Include" />
+          <e p="Decider.cs" t="Include" />
+          <e p="Enacter.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
+          <e p="EnvInterface.cs" t="Include" />
+          <e p="Experiment.cs" t="Include" />
+          <e p="Interaction.cs" t="Include" />
           <e p="Memory.cs" t="Include" />
           <e p="PlayerHit.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="Pot.cs" t="Include" />
           <e p="PotGenerator.cs" t="Include" />
+          <e p="SimpleTarget.cs" t="Include" />
           <e p="VisionFieldOfView.cs" t="Include" />
           <e p="VisionMultipleRays.cs" t="Include" />
         </e>
