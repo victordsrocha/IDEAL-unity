@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +13,9 @@ public enum PlayerState
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private VisionMultipleRays fieldOfView;
-    public float speed;
+    [SerializeField] private float speed;
+    [SerializeField] private bool collision;
+
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
@@ -27,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
+        collision = false;
     }
 
     // Update is called once per frame
@@ -49,6 +53,16 @@ public class PlayerMovement : MonoBehaviour
         {
             UpdateAnimationAndMove();
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        collision = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        collision = false;
     }
 
     private IEnumerator AttackCo()
